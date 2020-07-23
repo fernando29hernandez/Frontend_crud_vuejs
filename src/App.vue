@@ -2,8 +2,8 @@
 
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <div class="navbar-nav mr-auto">
-          <span class="md-title">CRUD EXAMPLE</span>
+      <div class=" titulo navbar-nav mr-auto">
+          <span >CRUD EXAMPLE</span>
       </div>
     </nav>
     <div class="container mt-3">
@@ -17,3 +17,9 @@ export default {
   name: 'app'
 }
 </script>
+
+<style scoped>
+.titulo{
+color: beige;
+}
+</style>
